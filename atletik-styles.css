@@ -1717,7 +1717,7 @@
   padding: 10px 14px;
   font-size: 13px;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   border-radius: 8px;
   transition: all 0.25s ease;
   position: relative;
@@ -1733,7 +1733,7 @@
   transition: all 0.25s ease;
   transform: translateX(-50%);
 }
-.at-header-nav a:hover { color: #4ADE80; }
+.at-header-nav a:hover { color: #4ADE80 !important; }
 .at-header-nav a:hover::after { width: 20px; }
 @media (max-width: 1024px) {
   .at-header-nav { display: none; }
@@ -1751,10 +1751,10 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   transition: color 0.25s ease;
 }
-.at-header-phone:hover { color: #4ADE80; }
+.at-header-phone:hover { color: #4ADE80 !important; }
 .at-header-phone svg {
   width: 16px;
   height: 16px;
@@ -1839,11 +1839,11 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   border-bottom: 1px solid rgba(74, 222, 128, 0.12);
   transition: color 0.25s ease;
 }
-.at-header-drawer a:hover { color: #4ADE80; }
+.at-header-drawer a:hover { color: #4ADE80 !important; }
 .at-header-drawer a::after {
   content: '→';
   color: #4ADE80;
@@ -1879,13 +1879,13 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   padding: 0;
   border: none;
   display: block;
 }
 .at-header-drawer .at-drawer-phone-link::after { display: none; }
-.at-header-drawer .at-drawer-phone-link:hover { color: #4ADE80; }
+.at-header-drawer .at-drawer-phone-link:hover { color: #4ADE80 !important; }
 .at-header-drawer .at-drawer-cta {
   display: flex;
   align-items: center;
@@ -2040,13 +2040,13 @@
 }
 .at-footer-col li a {
   font-size: 14px;
-  color: #9CA3AF;
+  color: #9CA3AF !important;
   transition: color 0.25s ease;
   display: inline-flex;
   align-items: center;
   gap: 6px;
 }
-.at-footer-col li a:hover { color: #FFFFFF; }
+.at-footer-col li a:hover { color: #FFFFFF !important; }
 .at-footer-col li a:hover::before {
   content: '→';
   color: #4ADE80;
@@ -2075,10 +2075,10 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   transition: color 0.25s ease;
 }
-a.at-footer-contact-value:hover { color: #4ADE80; }
+a.at-footer-contact-value:hover { color: #4ADE80 !important; }
 .at-footer-contact-sub {
   font-size: 12px;
   color: #9CA3AF;
@@ -2107,20 +2107,20 @@ a.at-footer-contact-value:hover { color: #4ADE80; }
 }
 .at-footer-legal a {
   font-size: 12px;
-  color: #6B7280;
+  color: #6B7280 !important;
   transition: color 0.25s ease;
 }
-.at-footer-legal a:hover { color: #4ADE80; }
+.at-footer-legal a:hover { color: #4ADE80 !important; }
 .at-footer-top {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   font-size: 12px;
-  color: #9CA3AF;
+  color: #9CA3AF !important;
   transition: color 0.25s ease;
   margin-top: 0;
 }
-.at-footer-top:hover { color: #4ADE80; }
+.at-footer-top:hover { color: #4ADE80 !important; }
 .at-footer-top svg { width: 14px; height: 14px; }
 
 
